@@ -79,11 +79,13 @@ nav {
     font-family: 'Netflix Sans', sans-serif;
     font-size: 15px;
     padding-left: 20px;
+    color: white;
 }
 .start-btn {
     width: 204px;
     height: 56px;
     border-radius: 5px;
+    border: none;
     color: white;
     background-color: #E50914;
     font-family: 'Netflix Sans', sans-serif;
