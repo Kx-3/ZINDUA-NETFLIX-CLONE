@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(./circular-std-medium-500.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./banner.jpg');
+    background-size: cover;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    gap: 400px;
+
+    > button {
+        width: 76px;
+        height: 32px;
+        background-color: #E50914;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Netflix Sans', sans-serif;
+    }
+}
+.logo-img {
+    width: 150px;
+    height: 50px;
+
+    > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
