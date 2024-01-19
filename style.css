@@ -17,6 +17,8 @@ body {
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./banner.jpg');
     background-size: cover;
+    color: white;
+    font-family: 'Netflix Sans', sans-serif;
 }
 
 nav {
@@ -39,6 +41,7 @@ nav {
         font-family: 'Netflix Sans', sans-serif;
     }
 }
+
 .logo-img {
     width: 150px;
     height: 100%;
@@ -48,4 +51,42 @@ nav {
         height: 100%;
         object-fit: cover;
     }
+}
+
+.landing-wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    > h2 {
+        font-size: 50px;
+    }
+
+    > h4 {
+        font-size: 25px;
+    }
+}
+
+.email-entry {
+    width: 374px;
+    height: 56px;
+    background-color: transparent;
+    border: solid 1px gray;
+    border-radius: 5px;
+    font-family: 'Netflix Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.start-btn {
+    width: 204px;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E50914;
+    font-family: 'Netflix Sans', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
 }
