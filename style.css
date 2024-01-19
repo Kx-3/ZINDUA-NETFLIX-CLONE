@@ -40,6 +40,7 @@ nav {
         border-radius: 5px;
         cursor: pointer;
         font-family: 'Netflix Sans', sans-serif;
+        transition: all 0.3s;
     }
 }
 
@@ -92,6 +93,7 @@ nav {
     font-family: 'Netflix Sans', sans-serif;
     font-size: 24px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 button:hover {
@@ -143,4 +145,51 @@ button:hover {
         height: 100%;
         object-fit: contain;
     }
+}
+.faq {
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+    color: white;
+    font-family: 'Netflix Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 5px solid rgba(128,128,128,0.7);
+    > h2 {
+        font-size: 70px;
+        padding: 40px;
+    }
+    >p {
+        margin: 40px 0 20px 0;
+        font-size: 20px;
+    }
+}
+.questions {
+    width: 75%;
+    height: 84px;
+    color: white;
+    background-color: rgba(45,45,45,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.questions:hover {
+    background-color: rgb(64, 64, 64);
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: gray;
 }
